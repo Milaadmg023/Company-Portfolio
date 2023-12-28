@@ -12,7 +12,7 @@ import Footer from './Footer'
 
 function MainPage() {
   return (
-    <>
+    <div id='Main__Page'>
     <Menu/>
     <ProjectsSlider/>
     <Reputation/>
@@ -23,7 +23,7 @@ function MainPage() {
     <Projects/>
     <Massege/>
     <Footer/>
-    </>
+    </div>
   )
 }
 

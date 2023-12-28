@@ -3,8 +3,8 @@ import React from "react";
 function Projects() {
   return (
     <section>
-      <div className="flex">
-        <div className="w-1/4 p-8 bg-[#f8f1f1]">
+      <div className="flex flex-col lg:flex-row">
+        <div className="w-full lg:w-1/4 p-8 bg-[#f8f1f1]">
           <h1 className="text-4xl font-bold mb-6">Projects</h1>
           <nav>
             <ul className="text-lg font-medium">
@@ -15,7 +15,7 @@ function Projects() {
             </ul>
           </nav>
         </div>
-        <div className="w-3/4 p-8">
+        <div className="w-full lg:w-3/4 p-8">
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-white p-4">
               <img

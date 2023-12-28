@@ -5,7 +5,7 @@ function Reputation() {
     <section>
       <div className="bg-[#fde8e8] p-8">
         <h2 className="text-center text-3xl font-bold mb-10">Our Reputation</h2>
-        <div className="flex justify-center space-x-4">
+        <div className="grid gap-2 lg:flex justify-center lg:space-x-4">
           <div
             className="rounded-lg border text-card-foreground w-[350px] bg-white p-6 shadow-md"
             data-v0-t="card"

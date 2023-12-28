@@ -3,19 +3,16 @@ import React from "react";
 function AboutUs() {
   return (
     <section>
-      <div className="flex h-screen">
-        <div className="relative w-1/2">
+      <div className="grid lg:grid-cols-2 h-screen">
+        <div className="relative w-full">
           <img
             src="https://thumbs.wbm.im/pw/medium/10110e1f289c3b8eed069a4426d8a315.avif"
             alt="Person"
-            className="absolute inset-0 h-full w-full object-cover"
-            width={605}
-            height={700}
+            className="absolute inset-0 h-[50vh] lg:h-full w-full object-cover"
             style={{ aspectRatio: "605 / 700", objectFit: "cover" }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#f8b0b0] via-transparent to-transparent" />
         </div>
-        <div className="w-1/2 bg-[#5e5eaa] p-12 text-white">
+        <div className="w-full bg-[#5e5eaa] p-12 text-white">
           <h2 className="text-4xl font-bold mb-6">About us</h2>
           <p className="mb-4">
             For more than 30 years we have been delivering world-class

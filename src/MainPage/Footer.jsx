@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section>
       <footer className="bg-[#e1d7d2]">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 py-6">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 py-6 px-4">
           <div>
             <h5 className="font-bold uppercase mb-2.5">Address:</h5>
             <p className="mb-1">6391 Elgin St. Celina, Delaware 10299</p>

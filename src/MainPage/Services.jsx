@@ -5,7 +5,7 @@ function Services() {
     <section>
       <div className="bg-[#fde8e9] p-8">
         <h2 className="text-center text-3xl font-bold mb-10">Services</h2>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="bg-white p-4 shadow-md rounded-lg text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"

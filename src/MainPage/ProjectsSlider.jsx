@@ -40,9 +40,6 @@ function ProjectsSlider() {
             alt="image 3"
             className="h-[70vh] w-full object-cover"
               />*/}
-          <span className="bg-gray-900 text-white">
-            hello
-          </span>
         </div>
       </Carousel>
     </section>
