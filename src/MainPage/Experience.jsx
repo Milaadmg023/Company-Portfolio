@@ -4,7 +4,7 @@ function Experience() {
   return (
     <section>
       <div className="bg-[#fde8e9] p-10">
-        <div className="flex flex-col gap-4 justify-center items-center">
+        <div className="flex flex-col lg:flex-row lg:justify-around gap-4 justify-center items-center">
           <div className="grid grid-cols-2 gap-8">
             <div className="flex flex-col items-center">
               <svg
