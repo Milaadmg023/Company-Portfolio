@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Gallery() {
+const Gallery = () => {
   return (
     <div>Gallery</div>
   )
